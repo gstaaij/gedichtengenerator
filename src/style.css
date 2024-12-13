@@ -1,0 +1,14 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+}
+
+.gedicht {
+    font-family: "Noto Serif", "Times New Roman", Times, serif;
+    font-size: 1.25em;
+}
+
+button {
+    font-size: inherit;
+}
