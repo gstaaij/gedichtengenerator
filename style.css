@@ -4,11 +4,38 @@
     font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 }
 
+body {
+    max-width: 40em;
+    margin: 0 auto;
+    background-color: #fffffa;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+    max-width: 20em;
+    margin: 0 auto;
+}
+
+.controls button {
+    font-size: inherit;
+}
+
+.controls label {
+    display: flex;
+    flex-direction: row;
+    gap: .25em;
+    align-items: center;
+}
+
+.controls label input {
+    flex-grow: 1;
+    font-size: inherit;
+}
+
 .gedicht {
     font-family: "Noto Serif", "Times New Roman", Times, serif;
     font-size: 1.25em;
-}
-
-button {
-    font-size: inherit;
+    line-height: 1.5;
 }

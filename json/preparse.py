@@ -61,7 +61,10 @@ with open("parsed/zelfnaam.tsv", "w") as outfile:
                         foundForm = True
                         form = formObj["form"].split(", ")[0]
                         break
-            outfile.write(f"{obj["word"]}\t{form}\n")
+            gender = "mv"
+            if "tags" in obj and "neuter" in obj["tags"]:
+                gender = "o"
+            outfile.write(f"{obj["word"]}\t{form}\t{gender}\n")
             znAmount += 1
 
 print(f"{znAmount} unieke zelfstandige naamwoorden")

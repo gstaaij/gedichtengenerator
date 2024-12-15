@@ -9,12 +9,18 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Gedichtengenerator</h1>
+    <div class="controls">
+        <h1>Gedichtengenerator</h1>
 
-    <button id="btnGenerate">Genereer!</button>
+        <label>Aantal strofes:
+            <input type="number" id="inputStrofenAantal" min="1" max="100" value="2">
+        </label>
+
+        <button id="btnGenerate">Genereer!</button>
+    </div>
 
     <div class="gedichtContainer">
-        <pre class="gedicht"></p>
+        <pre class="gedicht"></pre>
     </div>
 </body>
 </html>

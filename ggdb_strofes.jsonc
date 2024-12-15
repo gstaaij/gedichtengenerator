@@ -1,0 +1,91 @@
+[
+    [
+        "Stel, zij zou haar {zn:mv} {ww:first-person plural infinitive}",
+        "in de {zn:ev,mv}, het {zn:ev,o} {ww:past participle}",
+        "en met {bn:o} {ww:past participle:^ge[^ ]+d$:0,-1}",
+        /*                ^ Deze macro zou moeten zorgen voor een naamwoord van handeling */
+        "weer tot {ww:first-person plural infinitive} komen."
+    ], [
+        "Waar ze met wie {ww:past participle} is,",
+        "langs welke {zn} of {bn:v} {zn:mv,mv};",
+        "er {ww:first-person plural infinitive} {zn:mv} in een {zn:ev,mv} of twee",
+        "in {bn:v} {zn:mv,mv} na {zn:ev,mv}."
+    ], [
+        "Stel, {bn:o} {ww:third-person past singular:^[^ \n]+$} haar {zn:ev}",
+        "langs de {zn:mv,mv}, dan nog",
+        "{ww:third-person past singular:^[^ \n]+$} zij de {zn:mv,mv} stug {ww:past participle}",
+        "en {ww:third-person past singular:^[^ \n]+$} haar {zn:ev,o} kapot."
+    ], [
+        "Ze zou nog {ww:first-person plural infinitive} in {zn:ev,mv}",
+        "{ww:imperfect present active infinitive}, als met één {zn:ev,mv}",
+        "{ww:imperfect present active infinitive} – zonder {zn:ev,mv}."
+    ], [
+        "Zoveel {zn:mv,o} en nog nooit een {zn:ev,mv} {ww:past participle}.",
+        "Hij was een {zn:ev,mv} {ww:past participle}",
+        "van waar al lang geen {zn:ev,o} meer {ww:third-person past singular}."
+    ], [
+        "Hij {ww:third-person past singular:^[^ \n]+$} de {zn:ev,mv}, hij was {zn} en {ww:third-person past singular}",
+        "te veel aan wat maar niet {bn:o} {ww:third-person present singular}."
+    ], [
+        "Iemand {ww:third-person past singular:^[^ \n]+$} een {zn:ev}, een {zn:ev}",
+        "zoals het hem voor {zn:mv,o} {ww:third-person past singular:^[^ ]+$}: {zn:mv} {ww:first-person plural infinitive}",
+        "en ook op wiens {zn:ev,mv} {ww:past participle}."
+    ], [
+        "{ww:third-person past singular:^[^ \n]+$} vervolgens de {zn:ev,mv}",
+        "die tussen dat {bn:v} {ww:past participle:^ge[^ \n]+d$:0,-1} van {bn:o} {zn:ev,o}",
+        "het {zn:ev,o}, het {ww:first-person plural infinitive} tussen {bn:v} {zn:mv} is."
+    ], [
+        "{ww:third-person past singular:^[^ \n]+$} zelfs het {zn:ev,o} alvast,",
+        "dat alles {ww:third-person past singular:^[^ \n]+$} dat {ww:third-person past singular:^[^ \n]+$}: {zn:mv,mv}",
+        "los van {zn:mv} in de {zn:ev,mv} {ww:past participle}."
+    ], [
+        "Maar niet de {zn:ev,mv} voor het {zn:ev,o},",
+        "Het {bn:o} {ww:first-person plural infinitive} naar een {zn:ev,o}",
+        "dat niet in de {zn:ev,mv} {ww:third-person present singular:^[^ \n]+$}."
+    ], [
+        "Dit {bn:v} {ww:third-person past singular:^[^ \n]+$} gisteren niet;",
+        "plots {ww:third-person present singular:^[^ \n]+$} mijn {zn:ev,o} in zichzelf",
+        "en {ww:third-person present singular:^[^ \n]+$} zich aan",
+        "{bn:v} {zn:mv,mv}."
+    ], [
+        "De {zn:mv,mv}, de {zn:mv,mv} {ww:third-person present plural:^[^ \n]+$} niet",
+        "zoals het {zn:ev,o} had {ww:past participle},",
+        "dit {zn:ev,o} {ww:third-person present singular:^[^ \n]+$} geen {zn:ev,mv}."
+    ], [
+        "Mijn {bn:v} {zn:mv,mv} heb ik {ww:past participle},",
+        "in {zn:ev,mv} van de {zn:ev,mv}",
+        "maar de {zn:ev,mv} van de {zn:ev,mv}."
+    ], [
+        "Onvermijdelijk {ww:third-person present plural} mijn",
+        "{zn:mv,mv} bij het {ww:third-person present plural:^[^ \n]+$}",
+        "op de {zn:mv,mv}."
+    ], [
+        "Hier {ww:third-person present singular:^[^ \n]+$} een {zn:ev}.",
+        "Nooit {ww:first-person present singular:^[^ \n]+$} ik nog beneden."
+    ], [
+        "{bn:o} boven {zn:mv} {ww:first-person present singular:^[^ \n]+$} je",
+        "on{ww:past participle} {bn:o} te {ww:third-person present plural:^[^ \n]+$},",
+        "zo {ww:third-person present singular:^[^ \n]+$} het in dit {zn:ev,o}",
+        "dat niets hier ooit {ww:third-person present singular:^[^ \n]+$}."
+    ], [
+        "Hier {ww:first-person present singular:^[^ \n]+$} je on{ww:past participle},",
+        "er {ww:third-person present singular:^[^ \n]+$} te weinig {zn:ev,mv},",
+        "de {zn:ev,mv} op dit {zn:ev,o}",
+        "{ww:third-person present singular:^[^ \n]+$} je {zn:ev,mv}",
+        "met {bn:v} {zn:mv,mv}."
+    ], [
+        "Straks {ww:third-person present plural:^[^ \n]+$} ze langs:",
+        "{ww:past participle}e {zn:mv,mv} die iemand",
+        "uit een {zn:ev,o}, aan een {zn:ev,o}",
+        "in dit {zn:ev,o} zal laten {ww:third-person present plural:^[^ \n]+$}."
+    ], [
+        //   (misschien gehoord ipv random)
+        "Vandaag {ww:past participle} hoe zij als {zn:mv,o}",
+        "vaak al {ww:third-person past plural:^[^ \n]+$} naar een {zn:ev,mv},",
+        "langs een {bn:o} {zn:ev,o} {zn:mv,mv} {ww:third-person past plural:^[^ \n]+$}",
+        "van wat aan {zn:ev,o} of {zn:ev,mv} {ww:third-person past singular:^[^ \n]+$}."
+    // ], [
+    //     "Niet één heeft toen aan {zn:ev,o} {ww:past participle},"
+    //     // TODO
+    ]
+]
