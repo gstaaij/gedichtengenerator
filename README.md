@@ -1,7 +1,7 @@
 
 # Gedichtengenerator
 
-Website die gedichten genereert op basis van de gedichten van Ester Naomi Perquin.
+Website die gedichten genereert op basis van een aantal gedichten van Ester Naomi Perquin.
 
 ## Copyright
 
