@@ -22,7 +22,7 @@ const werkwoorden = []
 let strofes = [];
 
 async function ggLaadStrofes() {
-    return fetch("/ggdb_strofes.jsonc")
+    return fetch("ggdb_strofes.jsonc")
         .then((res) => res.text())
         .then((text) => {
             strofes = JSON.parse(text.replace(/\/\*.*?\*\/|\/\/.*?(\n|$)/gm, ""));
@@ -32,7 +32,7 @@ async function ggLaadStrofes() {
 }
 
 async function ggLaadZelfstandigeNaamwoorden() {
-    return fetch("/json/parsed/zelfnaam.tsv")
+    return fetch("json/parsed/zelfnaam.tsv")
         .then((res) => res.text())
         .then((text) => {
             for (let subtext of text.split("\n")) {
@@ -43,7 +43,7 @@ async function ggLaadZelfstandigeNaamwoorden() {
 }
 
 async function ggLaadBijvoeglijkeNaamwoorden() {
-    return fetch("/json/parsed/bijvnaam.tsv")
+    return fetch("json/parsed/bijvnaam.tsv")
         .then((res) => res.text())
         .then((text) => {
             for (let subtext of text.split("\n")) {
@@ -54,7 +54,7 @@ async function ggLaadBijvoeglijkeNaamwoorden() {
 }
 
 async function ggLaadWerkwoorden() {
-    return fetch("/json/parsed/werkwoord.jsonl")
+    return fetch("json/parsed/werkwoord.jsonl")
         .then((res) => res.text())
         .then((text) => {
             for (let subtext of text.split("\n")) {
