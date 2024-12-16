@@ -34,8 +34,8 @@ body {
     font-size: inherit;
 }
 
-.gedicht {
+.gedicht, .gedicht * {
     font-family: "Noto Serif", "Times New Roman", Times, serif;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     line-height: 1.5;
 }
