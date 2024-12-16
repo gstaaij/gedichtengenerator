@@ -22,10 +22,10 @@
     ], [
         "Zoveel {zn:mv,o} en nog nooit een {zn:ev,mv} {ww:past participle}.",
         "Hij was een {zn:ev,mv} {ww:past participle}",
-        "van waar al lang geen {zn:ev,o} meer {ww:third-person past singular}."
+        "van waar al lang geen {zn:ev,o} meer {ww:third-person past singular:^[^ ]+$}."
     ], [
         "Hij {ww:third-person past singular:^[^ \n]+$} de {zn:ev,mv}, hij was {zn} en {ww:third-person past singular}",
-        "te veel aan wat maar niet {bn:o} {ww:third-person present singular}."
+        "te veel aan wat maar niet {bn:o} {ww:third-person present singular:^[^ ]+$}."
     ], [
         "Iemand {ww:third-person past singular:^[^ \n]+$} een {zn:ev}, een {zn:ev}",
         "zoals het hem voor {zn:mv,o} {ww:third-person past singular:^[^ ]+$}: {zn:mv} {ww:first-person plural infinitive}",
@@ -84,8 +84,17 @@
         "vaak al {ww:third-person past plural:^[^ \n]+$} naar een {zn:ev,mv},",
         "langs een {bn:o} {zn:ev,o} {zn:mv,mv} {ww:third-person past plural:^[^ \n]+$}",
         "van wat aan {zn:ev,o} of {zn:ev,mv} {ww:third-person past singular:^[^ \n]+$}."
-    // ], [
-    //     "Niet één heeft toen aan {zn:ev,o} {ww:past participle},"
-    //     // TODO
+    ], [
+        "Niet één heeft toen aan {zn:ev,o} {ww:past participle},",
+        "aan al te {bn:v} {zn:ev,mv} waarin",
+        "wij {zn:mv,o} {bn:o} {ww:first-person past plural:^[^ ]+$}, {zn:mv,mv}",
+        "waarin geen {zn:ev,mv} nog {zn:ev,o} {ww:third-person past singular:^[^ ]+$}.",
+        "Niemand {ww:third-person past singular:^[^ ]+$} {bn:v} {zn:mv,mv}",
+        "in {zn:mv,mv} van {zn:mv,o}."
+    ], [
+        "Alles {ww:third-person past singular:^[^ ]+$} nog uit {zn:ev,o} en {zn:ev,o}.",
+        "Zo {bn:o} was het {zn:ev,o} dat {zn:mv,mv}",
+        "{bn:o} moesten {ww:third-person present plural:^[^ ]+$}, zo {bn:o} de {zn:ev,mv}",
+        "– ze bleven {ww:third-person present plural:^[^ ]+$} tot hun {zn:ev,mv} {ww:third-person past singular:^[^ ]+$}."
     ]
 ]

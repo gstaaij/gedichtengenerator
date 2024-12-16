@@ -9,15 +9,15 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="controls">
+    <form action="" method="GET" class="controls">
         <h1>Gedichtengenerator</h1>
 
         <label>Aantal strofes:
-            <input type="number" id="inputStrofenAantal" min="1" max="100" value="2">
+            <input type="number" id="inputStrofenAantal" min="1" max="10000" value="2">
         </label>
 
-        <button id="btnGenerate">Genereer!</button>
-    </div>
+        <input id="btnGenerate" type="submit" value="Genereer!"></button>
+    </form>
 
     <div class="gedichtContainer">
         <pre class="gedicht"></pre>
