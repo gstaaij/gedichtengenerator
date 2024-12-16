@@ -115,7 +115,7 @@ function ggGenereerGedicht(strofenAantal) {
                             woord = bnRandom[1];
                         else
                             woord = bnRandom[0];
-                        if (macroRegex == undefined || woord.match(macroRegex)) {
+                        if ((!macroRegex && woord) || (woord && woord.match(macroRegex))) {
                             console.log(bnRandom);
                             succes = true;
                         }
@@ -137,7 +137,7 @@ function ggGenereerGedicht(strofenAantal) {
                                 woord = znRandom[0];
                         } else
                             woord = znRandom[0];
-                        if ((!macroRegex && woord) || woord.match(macroRegex)) {
+                        if ((!macroRegex && woord) || (woord && woord.match(macroRegex))) {
                             console.log(znRandom);
                             succes = true;
                         }
@@ -157,7 +157,7 @@ function ggGenereerGedicht(strofenAantal) {
                                 woorden.push(form.form);
                             }
                             woord = kiesRandom(woorden);
-                            if ((!macroRegex && woord) || woord.match(macroRegex)) {
+                            if ((!macroRegex && woord) || (woord && woord.match(macroRegex))) {
                                 console.log(wwRandom);
                                 succes = true;
                             }
@@ -175,7 +175,7 @@ function ggGenereerGedicht(strofenAantal) {
                         }
                         if (woorden.length > 0) {
                             woord = kiesRandom(woorden);
-                            if ((!macroRegex && woord) || woord.match(macroRegex)) {
+                            if ((!macroRegex && woord) || (woord && woord.match(macroRegex))) {
                                 console.log(wwRandom);
                                 succes = true;
                             }
