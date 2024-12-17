@@ -23,46 +23,47 @@ let strofes = [];
 
 async function ggLaadStrofes() {
     return fetch("ggdb_strofes.jsonc")
-        .then((res) => res.text())
-        .then((text) => {
+        .then(res => res.text())
+        .then(text => {
+            // Deze enge RegEx verwijdert comments
             strofes = JSON.parse(text.replace(/\/\*.*?\*\/|\/\/.*?(\n|$)/gm, ""));
             console.log(strofes);
         })
-        .catch((e) => console.error(e));
+        .catch(e => console.error(e));
 }
 
 async function ggLaadZelfstandigeNaamwoorden() {
     return fetch("json/parsed/zelfnaam.tsv")
-        .then((res) => res.text())
-        .then((text) => {
+        .then(res => res.text())
+        .then(text => {
             for (let subtext of text.split("\n")) {
                 zelfstandigeNaamwoorden.push(subtext.split("\t"));
             }
         })
-        .catch((e) => console.error(e));
+        .catch(e => console.error(e));
 }
 
 async function ggLaadBijvoeglijkeNaamwoorden() {
     return fetch("json/parsed/bijvnaam.tsv")
-        .then((res) => res.text())
-        .then((text) => {
+        .then(res => res.text())
+        .then(text => {
             for (let subtext of text.split("\n")) {
                 bijvoeglijkeNaamwoorden.push(subtext.split("\t"));
             }
         })
-        .catch((e) => console.error(e));
+        .catch(e => console.error(e));
 }
 
 async function ggLaadWerkwoorden() {
     return fetch("json/parsed/werkwoord.jsonl")
-        .then((res) => res.text())
-        .then((text) => {
+        .then(res => res.text())
+        .then(text => {
             for (let subtext of text.split("\n")) {
                 if (subtext != "")
                     werkwoorden.push(JSON.parse(subtext));
             }
         })
-        .catch((e) => console.error(e));
+        .catch(e => console.error(e));
 }
 
 function kiesRandom(lijst) {
