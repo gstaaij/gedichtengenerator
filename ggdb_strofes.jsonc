@@ -24,7 +24,7 @@
         "Hij was een {zn:ev,mv} {ww:past participle}",
         "van waar al lang geen {zn:ev,o} meer {ww:third-person past singular:^[^ ]+$}."
     ], [
-        "Hij {ww:third-person past singular:^[^ \n]+$} de {zn:ev,mv}, hij was {zn} en {ww:third-person past singular}",
+        "Hij {ww:third-person past singular:^[^ \n]+$} de {zn:ev,mv}, hij was {zn} en {ww:third-person past singular:^[^ ]+$}",
         "te veel aan wat maar niet {bn:o} {ww:third-person present singular:^[^ ]+$}."
     ], [
         "Iemand {ww:third-person past singular:^[^ \n]+$} een {zn:ev}, een {zn:ev}",
@@ -56,7 +56,7 @@
         "in {zn:ev,mv} van de {zn:ev,mv}",
         "maar de {zn:ev,mv} van de {zn:ev,mv}."
     ], [
-        "Onvermijdelijk {ww:third-person present plural} mijn",
+        "Onvermijdelijk {ww:third-person present plural:^[^ ]+$} mijn",
         "{zn:mv,mv} bij het {ww:third-person present plural:^[^ \n]+$}",
         "op de {zn:mv,mv}."
     ], [
